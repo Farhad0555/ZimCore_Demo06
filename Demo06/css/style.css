@@ -1,0 +1,34 @@
+body{
+    font-family: "YADW1-vpsoc 0";
+    font-size: 20px;
+}
+
+.clrblu{
+    color: rgb(53, 53, 212);
+}
+.underline {
+    position: relative;
+    display: inline-block;
+}
+
+.underline::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60%; /* Only 50% of the text width */
+    border-bottom: 3px solid blue;
+}
+
+.bluegharo{
+    background-color:  rgb(48, 53, 150);;
+}
+.ligtblu{
+    background-color:  rgb(108 115 223);
+    color: white;
+}
+
+.bluegharoone{
+    background-color:  rgb(48, 53, 150);
+    color: white;
+}
